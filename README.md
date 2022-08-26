@@ -8,5 +8,12 @@ In this repository, I try to perform a mainnet fork and then simulate popular sm
 Reference - https://slowmist.medium.com/analysis-of-the-treasuredao-zero-fee-exploit-73791f4b9c14
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+#### Cover Protocol Unrestricted Mint Exploit PoC
+
+`forge test --contracts ./test/2_Cover.sol --match-contract CoverProtocolHack -vv`
+
+Reference - https://mudit.blog/cover-protocol-hack-analysis-tokens-minted-exploit/
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Special Mention
 https://github.com/SunWeb3Sec
