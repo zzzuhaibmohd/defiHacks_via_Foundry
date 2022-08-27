@@ -15,5 +15,13 @@ Reference - https://slowmist.medium.com/analysis-of-the-treasuredao-zero-fee-exp
 Reference - https://mudit.blog/cover-protocol-hack-analysis-tokens-minted-exploit/
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+#### $APE Airdrop Flash Loan Exploit PoC
+
+`forge test --contracts ./test/3_ApeAirdrop.sol --match-contract ApeAirdropExploit -vv`
+
+Reference - https://medium.com/amber-group/reproducing-the-ape-airdrop-flash-loan-arbitrage-exploit-93f79728fcf5
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Special Mention
 https://github.com/SunWeb3Sec
