@@ -22,6 +22,12 @@ Reference - https://mudit.blog/cover-protocol-hack-analysis-tokens-minted-exploi
 Reference - https://medium.com/amber-group/reproducing-the-ape-airdrop-flash-loan-arbitrage-exploit-93f79728fcf5
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+#### Redacted Cartel Custom Approval Logic Exploit PoC
 
+`forge test --contracts ./test/4_RedatedCartel.sol --match-contract RedactedCartelExploit -vv`
+
+Reference - https://medium.com/immunefi/redacted-cartel-custom-approval-logic-bugfix-review-9b2d039ca2c5
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Special Mention
 https://github.com/SunWeb3Sec
