@@ -29,5 +29,12 @@ Reference - https://medium.com/amber-group/reproducing-the-ape-airdrop-flash-loa
 Reference - https://medium.com/immunefi/redacted-cartel-custom-approval-logic-bugfix-review-9b2d039ca2c5
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+#### Redacted Cartel Custom Approval Logic Exploit PoC
+
+`forge test --contracts ./test/5_VisorFinance.sol --match-contract VisorFinanceExploit -vv`
+
+Reference - https://beosin.medium.com/two-vulnerabilities-in-one-function-the-analysis-of-visor-finance-exploit-a15735e2492
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Special Mention
 https://github.com/SunWeb3Sec
