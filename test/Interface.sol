@@ -340,37 +340,3 @@ interface ISafeERC20 {
   function allowance(address owner, address spender) external view returns (uint256);
   function transferFrom(address sender, address recipient, uint256 amount) external returns (bool);
 }
-
-interface IRewardsHypervisor {
-  function deposit(
-    uint256 visrDeposit,
-    address from,
-    address to
-  ) external returns (uint256 shares);
-
-  function owner() external view returns (address);
-
-  function snapshot() external;
-
-  function transferOwnership(address newOwner) external;
-
-  function transferTokenOwnership(address newOwner) external;
-
-  function visr() external view returns (address);
-
-  function vvisr() external view returns (address);
-
-  function withdraw(
-    uint256 shares,
-    address to,
-    address from
-  ) external returns (uint256 rewards);
-}
-
-interface IvVISR {
-  function balanceOf(address account) external view returns (uint256);
-
-  function mint(address account, uint256 amount) external;
-
-  function burn(address account, uint256 amount) external;
-}
