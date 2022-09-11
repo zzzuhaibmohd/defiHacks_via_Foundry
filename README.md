@@ -36,5 +36,12 @@ Reference - https://medium.com/immunefi/redacted-cartel-custom-approval-logic-bu
 Reference - https://beosin.medium.com/two-vulnerabilities-in-one-function-the-analysis-of-visor-finance-exploit-a15735e2492
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+#### ShadowFi Public Burn Function Exploit PoC
+
+`forge test --contracts test/6_ShadowFi.sol --match-contract ShadowFiExploit -vv`
+
+Reference - https://medium.com/quillhash/shadowfi-301k-burn-function-exploit-analysis-quillaudits-45a17ce04193
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Special Mention
 https://github.com/SunWeb3Sec
