@@ -42,11 +42,14 @@ Reference - https://beosin.medium.com/two-vulnerabilities-in-one-function-the-an
 
 Reference - https://medium.com/quillhash/shadowfi-301k-burn-function-exploit-analysis-quillaudits-45a17ce04193
 
+------------------------------------------------------------------------------------------------------------------------------------------------------
 #### Discover Flashloan Exploit PoC
 
 `forge test --contracts ./test/7_Discover.sol --match-contract DiscoverExploit -vv`
 
-Reference - https://medium.com/quillhash/shadowfi-301k-burn-function-exploit-analysis-quillaudits-45a17ce04193, https://www.anquanke.com/post/id/274003
+Reference - https://www.twitter.com/BeosinAlert/status/1533734518623899648
+
+https://www.anquanke.com/post/id/274003
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Special Mention
