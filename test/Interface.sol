@@ -491,3 +491,11 @@ interface IPancakePair {
 
   function initialize(address, address) external;
 }
+
+interface IBadGuysRPF_ERC721{
+  function WhiteListMint(bytes32[] calldata _merkleProof, uint256 chosenAmount) external;
+
+  function balanceOf(address owner) external view returns (uint256 balance);
+
+  function flipPauseMinting() external;
+}
