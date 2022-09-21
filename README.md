@@ -52,5 +52,14 @@ Reference - https://www.twitter.com/BeosinAlert/status/1533734518623899648
 https://www.anquanke.com/post/id/274003
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+#### Bad Guys by RPF Business Logic Flaw Exploit PoC
+
+`forge test --contracts ./test/8_BadGuysbyRPF --match-contract BadGuysbyRPFExploit -vv`
+
+Reference - https://twitter.com/RugDoctorApe/status/1565739119606890498
+
+https://etherscan.io/tx/0xb613c68b00c532fe9b28a50a91c021d61a98d907d0217ab9b44cd8d6ae441d9f
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Special Mention
 https://github.com/SunWeb3Sec
